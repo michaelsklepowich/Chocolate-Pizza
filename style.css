@@ -1,0 +1,39 @@
+* {
+  /* outline: 1px dotted orange; */
+}
+
+header {
+  height: 45px;
+}
+
+header h2 {
+  font-size: 27px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+header img {
+  float: left;
+}
+header h3 {
+  font-size: 14px;
+  margin-top: 0px;
+  width: 500px;
+}
+
+nav {
+  width: 901px;
+  margin: 0px auto;
+}
+
+nav ul {
+  float: right;
+  margin-top: -50px;
+}
+nav li {
+  display: inline-block;
+}
+
+main {
+  width: 901px;
+  margin: 30px auto;
+}
