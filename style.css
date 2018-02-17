@@ -1,5 +1,5 @@
 * {
-  outline: 1px dotted orange;
+  /* outline: 1px dotted orange; */
 }
 
 header {
@@ -36,6 +36,33 @@ nav li {
 main {
   width: 901px;
   margin: 30px auto;
+}
+
+fieldset {
+  background-image: url("img/list-bg.png");
+  height: 280px;
+  font-family: "Patrick Hand";
+  font-size: 20px;
+  border: none;
+}
+
+
+fieldset ul {
+  list-style-type: none;
+  width: 300px;
+  margin-top: 30px;
+}
+
+fieldset li {
+  list-style-type: none;
+  width: 300px;
+  margin: 4px;
+}
+
+fieldset div {
+  float: right;
+  margin-right: 120px;
+  margin-top: -234px;
 }
 
 #author{
