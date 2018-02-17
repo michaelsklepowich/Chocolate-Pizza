@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px dotted orange; */
+  outline: 1px dotted orange;
 }
 
 header {
@@ -7,17 +7,22 @@ header {
 }
 
 header h2 {
-  font-size: 27px;
+  font-size: 25px;
   margin-bottom: 0px;
   width: 500px;
+  font-family: "Yellowtail";
+  padding: 0px;
 }
 header img {
   float: left;
+  margin-right: 4px;
 }
 header h3 {
-  font-size: 14px;
-  margin-top: 0px;
+  font-size: 11px;
+  font-family: "Teko";
+  margin-top: -5px;
   width: 500px;
+  color: gray;
 }
 
 nav {
@@ -65,6 +70,7 @@ fieldset div {
   margin-top: -234px;
 }
 
+
 #author{
   margin-top: 15px;
   display: inline-block;
@@ -72,12 +78,16 @@ fieldset div {
 
 #author img {
   float: left;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 #author h2 {
   font-size: 18px;
   margin: 0px;
+}
+
+#author p {
+
 }
 
 .share-recipe {
@@ -86,4 +96,34 @@ fieldset div {
   background-color: brown;
   float: right;
   margin-top: 35px;
+}
+
+#recipe {
+  text-indent: 20px;
+  line-height: 22px;
+}
+
+h3 button {
+  float: right;
+}
+
+footer {
+  width: 901px;
+  text-align: center;
+  margin: auto;
+  font-size: 11px;
+  color: lightgray;
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: lightgray;
+  font-family: "Teko";
+}
+
+h1 {
+  font-family: "Yanone Kaffeesatz";
+  margin: 0px;
 }
