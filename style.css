@@ -1,5 +1,5 @@
 * {
-  outline: 1px dotted orange;
+  /* outline: 1px dotted orange; */
 }
 
 header {
@@ -126,4 +126,18 @@ h3 {
 h1 {
   font-family: "Yanone Kaffeesatz";
   margin: 0px;
+}
+
+.dashed-box1 {
+  border-style: groove;
+  height: 2px;
+  width: 901px;
+  margin-bottom: 40px;
+  margin-top: -15px;
+}
+.dashed-box2 {
+  border-style: groove;
+  height: 2px;
+  width: 901px;
+  margin-top: 40px;
 }
