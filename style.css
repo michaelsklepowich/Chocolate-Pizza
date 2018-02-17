@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px dotted orange; */
+  outline: 1px dotted orange;
 }
 
 header {
@@ -36,4 +36,27 @@ nav li {
 main {
   width: 901px;
   margin: 30px auto;
+}
+
+#author{
+  margin-top: 15px;
+  display: inline-block;
+}
+
+#author img {
+  float: left;
+  margin-right: 5px;
+}
+
+#author h2 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.share-recipe {
+  padding: 15px 30px;
+  color: white;
+  background-color: brown;
+  float: right;
+  margin-top: 35px;
 }
