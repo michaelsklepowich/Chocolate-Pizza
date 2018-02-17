@@ -1,6 +1,3 @@
-* {
-  /* outline: 1px dotted orange; */
-}
 
 header {
   height: 45px;
@@ -84,10 +81,6 @@ fieldset div {
 #author h2 {
   font-size: 18px;
   margin: 0px;
-}
-
-#author p {
-
 }
 
 .share-recipe {
